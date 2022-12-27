@@ -35,6 +35,8 @@ define([
                     category.hide();
                     attribute.show();
                     attributeOption.show();
+                    option_label.hide();
+                    attribute_label.hide();
                 }
             }, 500);
             return this;
